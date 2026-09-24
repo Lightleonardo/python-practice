@@ -75,3 +75,33 @@ exit with exit(), confirm the PowerShell prompt, then run the script
 
 ## What I learned
 check the prompt (>>> means Python, PS means PowerShell) before running commands
+
+
+
+## The error 3
+Exercise: `python-practice`
+
+```
+black : The term 'black' is not recognized as the name of a cmdlet, function, script 
+file, or operable program. Check the spelling of the name, or if a path was included, 
+verify that the path is correct and try again.
+At line:1 char:1
++ black .
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (black:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+```
+
+
+## What I was trying to do
+use the formatter black to format the code in the file
+
+## What caused it
+was not in .env directory, so black command was not recognized
+
+## How I fixed it
+change directory to .env directory, then run black command
+
+
+## What I learned
+should always cross check present directory before running commands
