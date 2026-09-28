@@ -1,5 +1,5 @@
 import pytest
-from Temperature import celsius_to_fahrenheit, fahrenheit_to_celsius
+from temperature import celsius_to_fahrenheit, fahrenheit_to_celsius
 
 # Example data points for celsius to fahrenheit testing
 temperatures_celsius = [
