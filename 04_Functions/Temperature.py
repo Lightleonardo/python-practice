@@ -1,5 +1,4 @@
 # Convert Celsius to Fahrenheit
-# Ensure the function uses absolute tolerance for floating-point comparison
 def celsius_to_fahrenheit(c):
     fahrenheit = (c * 9/5) + 32
     return fahrenheit
