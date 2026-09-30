@@ -49,7 +49,7 @@ python 01_variables_and_types/personal_card.py
 python 02_conditionals/grade_classifier.py
 python 03_Loops/multiplication_table.py
 python 04_Functions/temperature.py
-python 05_modules/use_text_tools.py
+python 05_modules/use_text_tool.py
 python 06_error_handling/safe_input.py
 python 07_file_handling/notes.py
 python 08_script_organisation/shopping_summary.py
@@ -68,7 +68,7 @@ pytest
 
 Tested exercises:
 - `04_Functions/temperature.py` — tested by `04_Functions/test_temperature.py`
-- `05_modules/text_tools.py` — tested by `05_modules/test_text_tools.py`
+- `05_modules/text_tool.py` — tested by `05_modules/test_text_tool.py`
 - `08_script_organisation/shopping_summary.py` — tested by `08_script_organisation/test_shopping_summary.py`
 
 ## Formatting
