@@ -105,3 +105,12 @@ change directory to .env directory, then run black command
 
 ## What I learned
 should always cross check present directory before running commands
+
+## The error 4
+Exercise: ModuleNotFoundError: No module named 'Temperature'
+## what Cause it
+ I renamed Temperature.py to temperature.py, but the test file still imported Temperature. Python import names are case-sensitive.
+## How i fixed it
+ changed the import to from temperature import ...
+## What I learned
+Lesson: after renaming a file, update every import that refers to it, then rerun the tests
